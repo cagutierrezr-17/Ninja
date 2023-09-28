@@ -1,9 +1,9 @@
 class Ninja {
-    constructor(nombre, salud, velocidad, fuerza) {
+    constructor(nombre, salud) {
         this.nombre = nombre;
         this.salud = salud;
-        this.velocidad = velocidad;
-        this.fuerza = fuerza;
+        this.velocidad = 3;
+        this.fuerza = 3;
     }
     decirNombre() {
         return `El nombre del ninja es ${this.nombre}`
@@ -21,7 +21,7 @@ class Ninja {
 }
 
 const nameNinja = new Ninja("Hyabusa")
-const mostrarEstadistica = new Ninja("Hyabusa", 0, 3, 3)
+const mostrarEstadistica = new Ninja("Hyabusa", 0)
 
 
 
