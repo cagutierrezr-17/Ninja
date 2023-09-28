@@ -22,4 +22,3 @@ const mostrarEstadistica = new Ninja("Hyabusa", 0, 3, 3)
 
 console.log(nameNinja.decirNombre());
 console.log(mostrarEstadistica.mostrarEstadistica());
-console.log(mostrarEstadistica.tomarSake());        this.sabiduria = 10;
